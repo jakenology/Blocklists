@@ -1,10 +1,13 @@
-akamaihd.net
-fbcdn.net
-akamai.net
 facebook.com
+fbcdn.net
 www.facebook.com
 static.xx.fbcdn.net
 scontent-msp1-1.xx.fbcdn.net
 staticxx.facebook.com
 cx.atdmt.com
 fbsbx.com
+scontent.xx.fbcdn.net
+googleads.g.doubleclick.net
+edge-chat.facebook.com
+5-edge-chat.facebook.com
+video-msp1-1.xx.fbcdn.net
