@@ -5,3 +5,5 @@ download.windowsupdate.com
 download.microsoft.com
 test.stats.update.microsoft.com
 ntservicepack.microsoft.com
+au.windowsupdate.com
+tlu.dl.delivery.mp.microsoft.com
