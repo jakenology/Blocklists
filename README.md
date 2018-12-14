@@ -13,4 +13,4 @@ Blocklists for Pi-hole
 - [Snapchat](Social/snapchat.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Social/snapchat.txt)
 - [Instagram](Social/instagram.txt)
-  - [Raw](https://github.com/jaykepeters/Blocklists/blob/master/Social/instagram.txt)
+  - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Social/instagram.txt)
