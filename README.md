@@ -2,8 +2,8 @@
 Blocklists for Pi-hole
 
 # Social Media
-- Snapchat
+- [Snapchat](Social/snapchat.txt)
   - Raw
 # Downloads/Updates
-- Apple App Store
+- [Apple App Store](Downloads/appstore.txt)
   - Raw
