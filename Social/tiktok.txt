@@ -46,3 +46,6 @@ h1.bytedance.map.fastly.net
 a747.mm1.akamai.net
 a1965.dscb.akamai.net
 dm.pstatp.com
+is5-ssl.mzstatic.com
+dm.pstatp.com
+star.c10r.facebook.com
