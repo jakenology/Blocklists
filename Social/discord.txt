@@ -1,4 +1,5 @@
 discord.com
+dl.discordapp.net
 discordapp.com
 gateway.discord.gg
 cdn.discordapp.com
