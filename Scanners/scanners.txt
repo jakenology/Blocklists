@@ -2,4 +2,3 @@ access-board.gov
 1x1.cz
 qq.com
 dnsscan.shadowserver.org
-dm.pstatp.com
