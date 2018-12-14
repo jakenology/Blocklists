@@ -18,3 +18,7 @@ api.facebook.com
 b-graph.facebook.com
 a-graph.facebook.com
 star-mini.c10r.facebook.com
+graph.facebook.com
+cdn.polyfill.io
+connect.facebook.net
+facebook.net
