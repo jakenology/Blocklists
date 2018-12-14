@@ -1,0 +1,7 @@
+scontent-msp1-1.cdninstagram.com
+e673.dsce9.akamaiedge.net
+edge-mqtt.facebook.com
+instagram.com
+www.instagram.com
+i.instagram.com
+star.c10r.facebook.com
