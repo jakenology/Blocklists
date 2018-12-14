@@ -10,6 +10,8 @@ Blocklists for Pi-hole
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Scanners/scanners.txt)
 
 # Social Media
+- [Discord](Social/discord.txt)
+  - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Social/discord.txt)
 - [Facebook](Social/facebook.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Social/facebook.txt)
 - [Instagram](Social/instagram.txt)
