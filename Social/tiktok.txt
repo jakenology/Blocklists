@@ -37,3 +37,7 @@ v16.muscdn.com
 p16-tiktokcdn-com.akamaized.net
 security.snssdk.com
 www.tiktok.com
+a1757.mm1.akamai.net
+sf16-muse-va.ibytedtos.com
+ibytedtos.com
+tiktok.com
