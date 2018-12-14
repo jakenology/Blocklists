@@ -1,0 +1,5 @@
+discord.com
+discordapp.com
+gateway.discord.gg
+cdn.discordapp.com
+images-ext-2.discordapp.net
