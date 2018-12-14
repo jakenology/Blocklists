@@ -30,3 +30,5 @@ s-mzstatic-applak.itunes-apple.com.akadns.net
 su-applak.itunes-apple.com.akadns.net
 updates-http.cdn-apple.com
 appldnld.g.aaplimg.com
+partiality.itunes.apple.com
+p7-buy.itunes.apple.com
