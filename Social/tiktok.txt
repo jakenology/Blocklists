@@ -32,3 +32,7 @@ dm.bytedance.com
 mon.snssdk.com.w.kunlungr.com
 sgali3.l.byteoversea.net
 dns.google.com
+mon.snssdk.com
+v16.muscdn.com
+p16-tiktokcdn-com.akamaized.net
+security.snssdk.com
