@@ -36,3 +36,4 @@ mon.snssdk.com
 v16.muscdn.com
 p16-tiktokcdn-com.akamaized.net
 security.snssdk.com
+www.tiktok.com
