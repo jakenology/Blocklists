@@ -23,3 +23,5 @@ am-prod.sc-jpl.com
 s.sc-cdn.net
 cf-st.sc-cdn.net
 bolt-gcdn.sc-cdn.net
+us-east1-aws.api.snapchat.com
+images.bitmoji.com
