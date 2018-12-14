@@ -12,3 +12,9 @@ edge-chat.facebook.com
 5-edge-chat.facebook.com
 video-msp1-1.xx.fbcdn.net
 portal.fb.com
+b-api.facebook.com
+a-api.facebook.com
+api.facebook.com
+b-graph.facebook.com
+a-graph.facebook.com
+star-mini.c10r.facebook.com
