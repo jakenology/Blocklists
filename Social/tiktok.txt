@@ -48,3 +48,8 @@ a1965.dscb.akamai.net
 dm.pstatp.com
 client_monitor.isnssdk.com
 cs1189.wpc.systemcdn.net
+p1.pstatp.com
+p2.pstatp.com
+p3.pstatp.com
+p99.pstatp.com
+a325.mm1.akamai.net
