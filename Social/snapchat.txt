@@ -1,0 +1,25 @@
+# Snapchat Chat
+chat-gateway-prod.chat.snapchat.com
+
+# Snapchat Website
+www.snapchat.com
+snapchat.com
+
+# Snapchat App
+freelinsonice-hrd.appspot.com
+app.snapchat.com
+mvm.snapchat.com
+
+# Snapchat Login
+pro-accounts.snapchat.com
+
+# Other
+sc-cdn.net
+gcs.sc-cdn.net
+jaguar-prod.snapchat.com
+st.sc-jpl.com
+gtq.sct.sc-prod.net
+am-prod.sc-jpl.com
+s.sc-cdn.net
+cf-st.sc-cdn.net
+bolt-gcdn.sc-cdn.net
