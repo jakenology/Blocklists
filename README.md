@@ -3,7 +3,7 @@ Blocklists for Pi-hole
 
 # Scanners
 - [Scanners](https://github.com/jaykepeters/Blocklists/blob/master/Scanners/scanners.txt)
-- [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Scanners/scanners.txt)
+  - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Scanners/scanners.txt)
 
 # Social Media
 - [Snapchat](Social/snapchat.txt)
