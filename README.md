@@ -8,6 +8,8 @@ Blocklists for Pi-hole
 # Social Media
 - [Snapchat](Social/snapchat.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Social/snapchat.txt)
+- [Instagram](Social/instagram.txt)
+  - [Raw](https://github.com/jaykepeters/Blocklists/blob/master/Social/instagram.txt)
   
 # Downloads/Updates
 - [Apple App Store](Downloads/appstore.txt)
