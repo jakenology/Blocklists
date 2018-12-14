@@ -22,3 +22,5 @@ graph.facebook.com
 cdn.polyfill.io
 connect.facebook.net
 facebook.net
+lithium.facebook.com
+scontent-ort2-1.xx.fbcdn.net
