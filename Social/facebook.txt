@@ -1,4 +1,10 @@
-facebook.com
 akamaihd.net
 fbcdn.net
 akamai.net
+facebook.com
+www.facebook.com
+static.xx.fbcdn.net
+scontent-msp1-1.xx.fbcdn.net
+staticxx.facebook.com
+cx.atdmt.com
+fbsbx.com
