@@ -1,8 +1,6 @@
 # Blocklists
 Blocklists for Pi-hole
 
-# DNS/Proxy
-
 # Downloads/Updates
 - [Apple App Store](Downloads/appstore.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Downloads/appstore.txt)
