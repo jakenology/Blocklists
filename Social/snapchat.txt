@@ -37,6 +37,7 @@ snap.api.mapbox.com
 st-lb.sc-jpl.com
 loc.sc-jpl.com
 cognac-prod.appspot.com
+scm.sc-jpl.com
 
 # Location?
 loca.sc-jpl.com
