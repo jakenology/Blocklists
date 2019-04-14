@@ -3,7 +3,12 @@ turn-prod.ms.thehousepartyapp.com
 nyc3-prod-turn.ms.thehousepartyapp.com
 res.cloudinary.com
 party.yevvo.com
-
+api.thehousepartyapp.com
+api1.thehousepartyapp.com
+ap2.thehousepartyapp.com
+api1-prod-alb.secrethouse.party
+api2-prod-alb.secrethouse.party
+api-prod-alb.secrethouse.party
 
 # Workers?
 nyc3-prod-worker-0.ms.thehousepartyapp.com
