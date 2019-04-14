@@ -12,6 +12,7 @@ mvm.snapchat.com
 
 # Snapchat Login
 pro-accounts.snapchat.com
+auth.snapchat.com
 
 # Other
 sc-cdn.net
