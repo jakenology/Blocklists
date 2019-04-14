@@ -27,3 +27,9 @@ cf-st.sc-cdn.net
 bolt-gcdn.sc-cdn.net
 us-east1-aws.api.snapchat.com
 images.bitmoji.com
+us-east1-aws.api.snapchat.com
+api.snapchat.com
+us-east1-aws.api.sc-gw.com
+
+# Location?
+loca.sc-jpl.com
