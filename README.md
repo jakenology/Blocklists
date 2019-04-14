@@ -23,6 +23,8 @@ Blocklists for Pi-hole
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Social/discord.txt)
 - [Facebook](Social/facebook.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Social/facebook.txt)
+- [Houseparty](Social/houseparty.txt)
+  - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Social/houseparty.txt)
 - [Instagram](Social/instagram.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Social/instagram.txt)
 - [Reddit](Social/reddit.txt)
