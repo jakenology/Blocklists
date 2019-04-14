@@ -5,7 +5,7 @@ res.cloudinary.com
 party.yevvo.com
 api.thehousepartyapp.com
 api1.thehousepartyapp.com
-ap2.thehousepartyapp.com
+api2.thehousepartyapp.com
 api1-prod-alb.secrethouse.party
 api2-prod-alb.secrethouse.party
 api-prod-alb.secrethouse.party
