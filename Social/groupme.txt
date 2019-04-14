@@ -1,0 +1,5 @@
+api.groupme.com
+v2.groupme.com
+push.groupme.com
+powerup.groupme.com
+groupme.com
