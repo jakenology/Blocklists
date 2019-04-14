@@ -7,7 +7,12 @@ Blocklists for Pi-hole
 - [Windows Updates](Downloads/updates.windows.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Downloads/updates.windows.txt)
 # Drugs
-  - Vapes
+- [Vapes](Drugs/vaping.txt)
+  - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Drugs/vaping.txt)
+  
+# Malicious
+- [Apple](Malicious/apple.txt)
+  - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Malicious/apple.txt)
   
 # Scanners
 - [Scanners](https://github.com/jaykepeters/Blocklists/blob/master/Scanners/scanners.txt)
