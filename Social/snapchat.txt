@@ -31,6 +31,12 @@ us-east1-aws.api.snapchat.com
 api.snapchat.com
 us-east1-aws.api.sc-gw.com
 snap-storage-cdn.l.google.com
+snap.events.mapbox.com
+ms.sc-jpl.com
+snap.api.mapbox.com
+st-lb.sc-jpl.com
+loc.sc-jpl.com
+cognac-prod.appspot.com
 
 # Location?
 loca.sc-jpl.com
