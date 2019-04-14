@@ -30,6 +30,7 @@ images.bitmoji.com
 us-east1-aws.api.snapchat.com
 api.snapchat.com
 us-east1-aws.api.sc-gw.com
+snap-storage-cdn.l.google.com
 
 # Location?
 loca.sc-jpl.com
