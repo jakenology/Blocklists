@@ -38,6 +38,9 @@ st-lb.sc-jpl.com
 loc.sc-jpl.com
 cognac-prod.appspot.com
 scm.sc-jpl.com
+us-central1-gcp.api.sc-gw.com
+map-status-p-service-ext-alb-206522301.us-west-2.elb.amazonaws.com
+
 
 # Location?
 loca.sc-jpl.com
