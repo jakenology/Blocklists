@@ -1,0 +1,12 @@
+e.reddit.com
+external-preview.redd.it
+alb.reddit.com
+v.redd.it
+gateway.reddit.com
+gql.reddit.com
+oauth.reddit.com
+sendbird.reddit.com
+reddit.map.fastly.net
+reddit.com
+www.reddit.com
+redd.it
