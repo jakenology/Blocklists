@@ -25,6 +25,8 @@ Blocklists for Pi-hole
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Social/facebook.txt)
 - [Instagram](Social/instagram.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Social/instagram.txt)
+- [Reddit](Social/reddit.txt)
+  - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Social/reddit.txt)
 - [Snapchat](Social/snapchat.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Social/snapchat.txt)
 - [TikTok](Social/tiktok.txt)
