@@ -1,0 +1,11 @@
+# Basic
+twitter.com
+abs.twimg.com
+analytics.twitter.com
+syndication.twitter.com
+pbs.twimg.com
+api.twitter.com
+video.twimg.com
+ton.twimg.com
+
+# All Possible API Domains (Overkill)
