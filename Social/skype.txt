@@ -20,3 +20,7 @@ avatar-service-prod.trafficmanager.net
 trouter-cus-b.trouter.skype.com
 api.aps.skype.com
 people.skype.com
+
+
+skype.com
+www.skype.com
