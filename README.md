@@ -1,6 +1,10 @@
 # Blocklists
 Blocklists for Pi-hole
 
+# Ads
+- [Spotify](Ads/spotify.txt)
+  - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Ads/spotify.txt)
+  
 # Downloads/Updates
 - [Apple App Store](Downloads/appstore.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Downloads/appstore.txt)
