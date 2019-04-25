@@ -1,3 +1,4 @@
+# This data has been gathered by collecting home proxy records, as well as DNS records through Pi-hole. 
 # ISD 748 JSS (Sartell-St. Stephen)
 casper.sartell.k12.mn.us
 
