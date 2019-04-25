@@ -5,10 +5,6 @@ Blocklists for Pi-hole
 - [Spotify](Ads/spotify.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Ads/spotify.txt)
   
-# Crawlers
-- [Lightspeed Systems](Crawlers/lightspeed.txt)
-  - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Crawlers/lightspeed.txt)
-  
 # Downloads/Updates
 - [Apple App Store](Downloads/appstore.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Downloads/appstore.txt)
@@ -22,6 +18,11 @@ Blocklists for Pi-hole
 # Malicious
 - [Apple](Malicious/apple.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Malicious/apple.txt)
+  
+# Other
+## MDM/Web Filtering
+- [Lightspeed Systems](Other/lightspeed.txt)
+  - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Other/lightspeed.txt)
   
 # Scanners
 - [Scanners](https://github.com/jaykepeters/Blocklists/blob/master/Scanners/scanners.txt)
