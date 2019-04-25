@@ -1,0 +1,8 @@
+# ISD 748 JSS (Sartell-St. Stephen)
+casper.sartell.k12.mn.us
+
+# ISD 742 JSS (St. Cloud)
+jss.isd742.org
+
+# ISD 47 JSS (Sauk Rapids)
+stormdm.isd47.org
