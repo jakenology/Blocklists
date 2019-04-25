@@ -21,8 +21,10 @@ Blocklists for Pi-hole
   
 # Other
 ## MDM/Web Filtering
-- [Lightspeed Systems](Other/lightspeed.txt)
+- [Lightspeed Systems (Web Filter and MDM)](Other/lightspeed.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Other/lightspeed.txt)
+- [Jamf Now/Jamf Pro](Other/jamf.txt)
+  - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Other/jamf.txt)
   
 # Scanners
 - [Scanners](https://github.com/jaykepeters/Blocklists/blob/master/Scanners/scanners.txt)
