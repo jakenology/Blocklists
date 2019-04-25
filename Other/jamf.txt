@@ -1,3 +1,4 @@
+
 # ISD 748 JSS (Sartell-St. Stephen)
 casper.sartell.k12.mn.us
 
@@ -6,3 +7,11 @@ jss.isd742.org
 
 # ISD 47 JSS (Sauk Rapids)
 stormdm.isd47.org
+
+# General JAMF
+jamfcloud.com
+jamf-patch.jamfcloud.com
+patch.services.jamfcloud.com
+app.pendo.io
+cdn.pendo.io
+pendo-io-static.storage.googleapis.com
