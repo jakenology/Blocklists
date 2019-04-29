@@ -26,6 +26,10 @@ Blocklists for Pi-hole
 - [Jamf Now/Jamf Pro](Other/jamf.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Other/jamf.txt)
   
+# Phishing
+- [Deals](Phising/deals.txt)
+  - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Phishing/deals.txt)
+  
 # Scanners
 - [Scanners](https://github.com/jaykepeters/Blocklists/blob/master/Scanners/scanners.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Scanners/scanners.txt)
