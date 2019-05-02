@@ -4,7 +4,6 @@ keys.lightspeedsystems.com
 bsdupdate01.lightspeedsystems.com
 updates.lsfilter.com
 ls-pki.css-security.com
-lsmdm-production.s3.amazonaws.com
 lsurl.me
 relay.school
 access.relay.school
@@ -24,4 +23,3 @@ lightspeed-realtime.ably.io
 a-fallback-lightspeed.ably.io
 b-fallback-lightspeed.ably.io
 c-fallback-lightspeed.ably.io
-devices.lsmdm.com
