@@ -22,6 +22,8 @@ Blocklists for Pi-hole
 # MDM (Mobile Device Management)
 - [Jamf Now/Jamf Pro](MDM/jamf.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/MDM/jamf.txt)
+- [Lightspeed Systems](MDM/lightspeed.txt)
+  - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/MDM/lightspeed.txt)
   
 # Proxy
 - [1.1.1.1](Proxy/1.1.1.1.txt)
