@@ -1,0 +1,2 @@
+lsmdm-production.s3.amazonaws.com
+devices.lsmdm.com
