@@ -19,16 +19,15 @@ Blocklists for Pi-hole
 - [Apple](Malicious/apple.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Malicious/apple.txt)
   
-# Other
-## MDM/Web Filtering
-- [Lightspeed Systems (Web Filter and MDM)](Other/lightspeed.txt)
-  - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Other/lightspeed.txt)
-- [Jamf Now/Jamf Pro](Other/jamf.txt)
-  - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Other/jamf.txt)
+# MDM (Mobile Device Management)
+- [Jamf Now/Jamf Pro](MDM/jamf.txt)
+  - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/MDM/jamf.txt)
   
 # Proxy
 - [1.1.1.1](Proxy/1.1.1.1.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Proxy/1.1.1.1.txt)
+- [Lightspeed Systems](Proxy/lightspeed.txt)
+  - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Proxy/lightspeed.txt)
   
 # Phishing
 - [Deals](Phishing/deals.txt)
