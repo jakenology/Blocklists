@@ -27,7 +27,7 @@ Blocklists for Pi-hole
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Other/jamf.txt)
   
 # Proxy
-- [1.1.1.1](Proxy/cloudflare.txt)
+- [1.1.1.1](Proxy/1.1.1.1.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Proxy/1.1.1.1.txt)
   
 # Phishing
