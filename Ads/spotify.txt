@@ -7,6 +7,7 @@ usersync.videoamp.com
 rtb.gumgum.com
 rtd-tm.everesttech.net
 rp.gwallet.com
+sync.tidaltv.com #hiv commercial?
 
 ## Positive
 use-va1.adsrvr.org
