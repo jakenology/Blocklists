@@ -25,6 +25,10 @@ Blocklists for Pi-hole
 - [Lightspeed Systems](MDM/lightspeed.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/MDM/lightspeed.txt)
   
+# Porn
+- [Blocklist](Porn/porn.txt)
+  - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Porn/porn.txt)
+  
 # Proxy
 - [1.1.1.1](Proxy/1.1.1.1.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Proxy/1.1.1.1.txt)
