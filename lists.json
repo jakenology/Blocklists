@@ -12,7 +12,10 @@
     ],
     "Malicious": ["apple"],
     "Phishing": ["deals"],
-    "Porn": ["porn"],
+    "Porn": [
+        "porn",
+        "tlds"
+    ],
     "Proxy": [
         "1.1.1.1", 
         "lightspeed"
