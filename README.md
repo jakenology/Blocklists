@@ -24,6 +24,14 @@ Category/List Name
 - Any minor errors will be corrected by the program
   - For Example `SoCiAl/InStAgAaM.txt` would be corrected to `Social/Instagram`
  
+# CONTRIBUTION
+## Contribution to this collection of blocklists is always welcome, however I recommend that you follow the guidelines below:
+- The first letter of a category is always capitalized
+- All list names shall be lowercase end end with the txt extension
+- Subcategories may be used, only if multiple lists would fall into that category
+  - The format is: Category/subcategory.listname.txt
+- This README shall be updated
+- lists.json shall be updated
 
 # Ads
 - [Spotify](Ads/spotify.txt)
