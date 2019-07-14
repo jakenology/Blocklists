@@ -96,3 +96,5 @@ Category/List Name
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Social/tiktok.txt)
 - [Twitter](Social/twitter.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Social/twitter.txt)
+- [Whatsapp](Social/whatsapp.txt)
+  - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Social/whatsapp.txt)
