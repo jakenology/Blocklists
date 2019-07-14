@@ -15,6 +15,9 @@ mvm.snapchat.com
 pro-accounts.snapchat.com
 auth.snapchat.com
 
+# Snapkit
+api.snapkit.com
+
 # Other
 sc-cdn.net
 gcs.sc-cdn.net
