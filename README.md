@@ -2,7 +2,7 @@
 Blocklists for Pi-hole
 
 # Fetcher (In Development)
-## Use Fetcher.py to select certain lists from this repo or a forked one and add them to your Pi-hole installation
+## Use fetcher.py to select certain lists from this repo or a forked one and add them to your Pi-hole installation
 ### Usage: 
 ```bash
 fetcher.py [--list "Category/list"] [--lists "Category/list"] [--file filename]
