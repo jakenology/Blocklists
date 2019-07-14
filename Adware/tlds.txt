@@ -1,0 +1,8 @@
+*.icu
+*.kim
+*.ru
+*.win
+*.trade
+*.tube
+*.vip
+*.+wang
