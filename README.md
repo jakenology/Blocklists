@@ -21,7 +21,7 @@ Category/List Name
   Social/Instagram
   ```
 - Any minor errors will be corrected by the program
-  - For Example `SoCiAl/InStAgAaM.txt` would be corrected to `Social/Instagram`
+  - For Example `SoCiAl/InStAgAaM.txt` would be corrected to `Social/instagram`
  
 # CONTRIBUTION
 ## Contribution to this collection of blocklists is always welcome, however I recommend that you follow the guidelines below:
