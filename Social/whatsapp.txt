@@ -1,0 +1,7 @@
+www.whatsapp.com
+static.whatsapp.net
+web.whatsapp.com
+www-cdn.whatsapp.net
+faq.whatsapp.com
+blog.whatsapp.com
+scontent.whatsapp.net
