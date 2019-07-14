@@ -59,6 +59,8 @@ Category/List Name
 # Porn
 - [Blocklist](Porn/porn.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Porn/porn.txt)
+- [TLDs (Top-level Domains)](Porn/tlds.txt)
+  - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Porn/tlds.txt)
   
 # Proxy
 - [1.1.1.1](Proxy/1.1.1.1.txt)
