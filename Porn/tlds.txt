@@ -1,0 +1,8 @@
+## fetcher.py will parse these and add them to Pi-hole. 
+*.xxx
+*.webcam
+*.sex
+*.tube
+*.sexy
+*.porn
+*.cam
