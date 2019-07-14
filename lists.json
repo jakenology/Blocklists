@@ -1,0 +1,33 @@
+{
+    "Ads": ["spotify"],
+    "Downloads": [
+        "appstore", 
+        "updates.vsc", 
+        "updates.windows"
+    ],
+    "Drugs": ["vaping"],
+    "MDM": [
+        "jamf", 
+        "lightspeed"
+    ],
+    "Malicious": ["apple"],
+    "Phishing": ["deals"],
+    "Porn": ["porn"],
+    "Proxy": [
+        "1.1.1.1", 
+        "lightspeed"
+    ],
+    "Scanners": ["scanners"],
+    "Social": [
+        "discord",
+        "facebook",
+        "groupme",
+        "houseparty",
+        "instagram",
+        "reddit",
+        "skype",
+        "snapchat",
+        "tiktok",
+        "twitter"
+    ]
+}
