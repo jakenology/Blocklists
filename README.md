@@ -2,7 +2,28 @@
 Blocklists for Pi-hole
 
 # Fetcher (In Development)
-- Use Fetcher.py to select certain lists from this repo or a forked one and add them to your Pi-hole installation
+## Use Fetcher.py to select certain lists from this repo or a forked one and add them to your Pi-hole installation
+### Usage: 
+```bash
+fetcher.py [--list "Category/list"] [--lists "Category/list"] [--file filename]
+```
+### Tips
+- The format for a list is as follows:
+```
+Category/List Name
+```
+- ALWAYS use quotes, spaces could be in the category name
+- Use --list to add just one list
+- Use --lists to specify multiple lists, SPACE SEPARATED
+- Use --file to specify a file of lists to be used
+  - For Example 
+  ```
+  Social/Snapchat
+  Social/Instagram
+  ```
+- Any minor errors will be corrected by the program
+  - For Example `SoCiAl/InStAgAaM.txt` would be corrected to `Social/Instagram`
+ 
 
 # Ads
 - [Spotify](Ads/spotify.txt)
