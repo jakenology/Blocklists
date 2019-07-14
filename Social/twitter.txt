@@ -135312,3 +135312,4 @@ api-50-50-47.twitter.com
 api-50-50-48.twitter.com
 api-50-50-49.twitter.com
 api-50-50-50.twitter.com
+*.twitter.com
