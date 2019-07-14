@@ -29,6 +29,11 @@ Category/List Name
 - All list names shall be lowercase end end with the txt extension
 - Subcategories may be used, only if multiple lists would fall into that category
   - The format is: Category/subcategory.listname.txt
+- Wildcards may be used
+  - If fetcher.py is used, they will be added as regex to Pi-hole
+  - Pi-hole by default will ignore these
+  - The format is `*.domain.com` OR  `*.tld`
+  - If there are TLD's associated with a category, please add a corresponding "tlds.txt" file
 - This README shall be updated
 - lists.json shall be updated
 
