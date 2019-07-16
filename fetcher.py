@@ -105,8 +105,12 @@ class Fetcher(object):
         # The file has never been written to before by fetcher
         if not cindexes:
             with open(file, 'a') as outfile:
-                if fileContentToWrite[-1] != '':
-                    self.tprefix = newln + self.TBprefix + newln
+                if fileContentToWrite:
+                    if fileContentToWrite[-1] != '':
+                        self.tprefix = newln + self.TBprefix + newln
+                elif fileContent:
+                    if fileContent[-1] != '':
+                        self.tprefix = newln + self.TBprefix + newln
                 outfile.writelines(self.tprefix)
                 outfile.writelines("%s\n" % line for line in content)
                 outfile.writelines(self.TBprefix)
@@ -121,8 +125,12 @@ class Fetcher(object):
                 fileContentToWrite = [x for x in fileContent if x not in linesToRemove]
                 with open(file, 'w') as outfile:
                     outfile.writelines("%s\n" % line for line in fileContentToWrite)
-                    if fileContentToWrite[-1] != '':
-                        self.tprefix = newln + self.TBprefix + newln
+                    if fileContentToWrite:
+                        if fileContentToWrite[-1] != '':
+                            self.tprefix = newln + self.TBprefix + newln
+                    elif fileContent:
+                        if fileContent[-1] != '':
+                            self.tprefix = newln + self.TBprefix + newln
                     outfile.writelines(self.tprefix)
                     outfile.writelines("%s\n" % line for line in content)
                     outfile.writelines(self.TBprefix)
