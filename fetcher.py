@@ -89,13 +89,44 @@ class Fetcher(object):
                         wildcards.append(regex)
         return wildcards
 
-    def appendFile(self, file, lines):
-        TBprefix = "## FETCHER ##\n"
-        with open(file, 'w') as filehandle:  
-            filehandle.writelines(TBprefix)
-            filehandle.writelines("%s\n" % line for line in lines)
-            filehandle.writelines(TBprefix)
+    def editConfig(self, file, content=[], delete=False):
+        fileContent = [line.rstrip('\n') for line in open(file)]
 
+        fileContentToWrite = []
+        newln = "\n"
+
+        index = 0
+        cindexes = []
+        for line in fileContent:
+            index += 1
+            if self.TBprefix in line:
+                cindexes.append(index)
+        
+        # The file has never been written to before by fetcher
+        if not cindexes:
+            with open(file, 'a') as outfile:
+                outfile.writelines(self.TBprefix + newln)
+                outfile.writelines("%s\n" % line for line in content)
+                outfile.writelines(self.TBprefix)
+        
+        # There is content in between the prefixes, let's modify and write the file accordingly
+        elif cindexes and not delete:
+            linesToRemove = set(fileContent[cindexes[0]-1:cindexes[1]])
+            fileContentToWrite = [x for x in fileContent if x not in linesToRemove]
+            print("{} replaced with {} content".format(linesToRemove, content))
+            with open(file, 'w') as outfile:
+                outfile.writelines("%s\n" % line for line in fileContentToWrite)
+                outfile.writelines(self.TBprefix + newln)
+                outfile.writelines("%s\n" % line for line in content)
+                outfile.writelines(self.TBprefix)
+
+        # We want to remove the prefixes and everything in between from the file
+        else:
+            with open(file, 'w') as outfile:
+                linesToRemove = set(fileContent[cindexes[0]:cindexes[1]])
+                fileContentToWrite = [x for x in fileContent if x not in linesToRemove]
+                outfile.writelines("%s\n" % line for line in fileContentToWrite)
+        
     def addLists(self, bl):
         # Make Directories
         if not os.path.exists(self.tempdir):
@@ -132,7 +163,7 @@ class Fetcher(object):
         if regex:
             print("STATUS\t Number of regexp's found: {}".format(len(regex)))
             print("STATUS\t Adding regexps's to /etc/pihole/regex.list")
-            self.appendFile("/etc/pihole/regex.list", regex)
+            self.editConfig("/etc/pihole/regex.list", regex)
         else:
             print("STATUS\t No rexp's found :(")
 
@@ -142,6 +173,7 @@ class Fetcher(object):
         self.listsData = self.getListsData(self.baseRawURL)
         self.cluserHome = str(Path.home())
         self.tempdir = "/tmp/blocklists/"
+        self.TBprefix = "## FETCHER – DO NOT MODIFY ##"
     
 def main():
     ## SUDO CHECK 
@@ -181,6 +213,8 @@ def main():
     elif options.list:
         unformattedBlocklists = options.list
         pass
+    #elif options.delete:
+        #self.appendFile("/etc/pihole/regex.list", '', delete=True)
     else:
         print("STATUS\t Looking for \"blocklists.txt\" in your home directory")
         unformattedBlocklists = fetcher.getBlocklistsFromFile(fetcher.cluserHome + "/blocklists.txt")
