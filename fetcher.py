@@ -105,20 +105,27 @@ class Fetcher(object):
         # The file has never been written to before by fetcher
         if not cindexes:
             with open(file, 'a') as outfile:
-                outfile.writelines(self.TBprefix + newln)
+                if fileContentToWrite[-1] != '':
+                    self.tprefix = newln + self.TBprefix + newln
+                outfile.writelines(self.tprefix)
                 outfile.writelines("%s\n" % line for line in content)
                 outfile.writelines(self.TBprefix)
         
         # There is content in between the prefixes, let's modify and write the file accordingly
         elif cindexes and not delete:
-            linesToRemove = set(fileContent[cindexes[0]-1:cindexes[1]])
-            fileContentToWrite = [x for x in fileContent if x not in linesToRemove]
-            print("{} replaced with {} content".format(linesToRemove, content))
-            with open(file, 'w') as outfile:
-                outfile.writelines("%s\n" % line for line in fileContentToWrite)
-                outfile.writelines(self.TBprefix + newln)
-                outfile.writelines("%s\n" % line for line in content)
-                outfile.writelines(self.TBprefix)
+            ltr = fileContent[cindexes[0]-1:cindexes[1]]
+            if ltr[1:-1] == content:
+                print("STATUS\t There is no content to update or remove")
+            else:
+                linesToRemove = set(ltr)
+                fileContentToWrite = [x for x in fileContent if x not in linesToRemove]
+                with open(file, 'w') as outfile:
+                    outfile.writelines("%s\n" % line for line in fileContentToWrite)
+                    if fileContentToWrite[-1] != '':
+                        self.tprefix = newln + self.TBprefix + newln
+                    outfile.writelines(self.tprefix)
+                    outfile.writelines("%s\n" % line for line in content)
+                    outfile.writelines(self.TBprefix)
 
         # We want to remove the prefixes and everything in between from the file
         else:
@@ -128,6 +135,8 @@ class Fetcher(object):
                 outfile.writelines("%s\n" % line for line in fileContentToWrite)
         
     def addLists(self, bl):
+        blURLS = []
+
         # Make Directories
         if not os.path.exists(self.tempdir):
             print("STATUS:\t Making Temporary Directory")
@@ -139,6 +148,10 @@ class Fetcher(object):
         for blocklist in bl:
             category, _list = blocklist.split("/")
             listURL = "{}{}.txt".format(self.baseRawURL, blocklist)
+
+            # Add the url to the list of blocklists
+            blURLS.append(listURL)
+
             parentDir = "{}{}".format(self.tempdir, category)
             filePath = "{}/{}.txt".format(parentDir, _list)
 
@@ -162,10 +175,19 @@ class Fetcher(object):
                 regex.extend(wildcards)
         if regex:
             print("STATUS\t Number of regexp's found: {}".format(len(regex)))
+            
+            # Add regexes
             print("STATUS\t Adding regexps's to /etc/pihole/regex.list")
             self.editConfig("/etc/pihole/regex.list", regex)
         else:
             print("STATUS\t No rexp's found :(")
+
+        # Add blocklists
+        print("STATUS\t Adding blocklists to Pi-hole")
+        self.editConfig("/etc/pihole/adlists.list", blURLS)
+
+        # Update Gravity
+        print("STATUS\t Telling Pi-hole to uptade gravity and load new regexp's")
 
     def __init__(self, repoURL):
         self.repoURL = repoURL
@@ -174,6 +196,7 @@ class Fetcher(object):
         self.cluserHome = str(Path.home())
         self.tempdir = "/tmp/blocklists/"
         self.TBprefix = "## FETCHER – DO NOT MODIFY ##"
+        self.tprefix = self.TBprefix + "\n"
     
 def main():
     ## SUDO CHECK 
