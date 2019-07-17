@@ -271,9 +271,6 @@ def main():
                 ctr += 1
                 print("STATUS\t Removing content from file {} of {}".format(ctr, len(files)))
                 fetcher.editConfig(file, delete=True)
-            else:
-                print("WARNING\t I assume you withheld your choice to delete :)!")
-                exit(0)
         subprocess.run(["pihole", "-g"], stdout=subprocess.PIPE)
         print("MESSAGE\t Thank you for using fetcher :)\n Hope you enjoyed it.\n If not, email me at jayke at jayke dot net.")
         exit(0)
