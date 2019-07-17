@@ -1,3 +1,8 @@
+*.discord.com
+*.discordapp.net
+*.discordapp.com
+*.discord.gg
+
 discord.com
 dl.discordapp.net
 discordapp.com
