@@ -1,7 +1,7 @@
 # Blocklists
 Blocklists for Pi-hole
 
-# Fetcher (In Development)
+# Fetcher (In Beta State)
 ## Use fetcher.py to select certain lists from this repo or a forked one and add them to your Pi-hole installation
 ### Usage: 
 ```bash
