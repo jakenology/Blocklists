@@ -238,6 +238,12 @@ def main():
         action="store",
         help="Specifies a file to use containing lists to be used with Pi-hole")
 
+    parser.add_option('--delete', '-d', '--disable',
+        action="store_true", 
+        default="False",
+        help="Removes all traces of fetcher, and updates gravity with lists removed."
+    )
+
     options, _ = parser.parse_args()
 
     if options.file and options.list:
@@ -251,8 +257,22 @@ def main():
     elif options.list:
         unformattedBlocklists = options.list
         pass
-    #elif options.delete:
-        #self.appendFile("/etc/pihole/regex.list", '', delete=True)
+    elif options.delete:
+        files = [
+            "/etc/pihole/regex.list",
+            "/etc/pihole/adlists.list"
+        ]
+        ctr = 0
+        print("WARNING\t Delete option selected.\n Are you sure you want to proceed?")
+        proceed = input("Y/N?: ").lower()
+        if 'y' in proceed:
+            print("STATUS\t Removing all traces of fetcher")
+            for file in files:
+                ctr += 1
+                print("STATUS\t Removing content from file {} of {}".format(ctr, len(files)))
+                fetcher.editConfig(file, delete=True)
+        subprocess.run(["pihole", "-g"], stdout=subprocess.PIPE)
+        print("MESSAGE\t Thank you for using fetcher :)\n Hope you enjoyed it.\n If not, email me at jayke at jayke dot net.")
     else:
         print("STATUS\t Looking for \"blocklists.txt\" in your home directory")
         unformattedBlocklists = fetcher.getBlocklistsFromFile(fetcher.cluserHome + "/blocklists.txt")
