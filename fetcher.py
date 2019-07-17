@@ -25,8 +25,9 @@ class Fetcher(object):
 
     def getListsData(self, baseRawURL):
         url =  "{}lists.json".format(baseRawURL)
-        data = urllib.request.urlopen(url).read()
-        listsJSON = json.loads(data)
+        response = urllib.request.urlopen(url)
+        str_response = response.read().decode('utf-8')
+        listsJSON = json.loads(str_response)
         return(listsJSON)
 
     def getBlocklistsFromFile(self, filepath):
