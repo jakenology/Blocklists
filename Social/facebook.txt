@@ -1,3 +1,6 @@
+*.fbcdn.net 
+*.facebook.com
+
 facebook.com
 fbcdn.net
 www.facebook.com
