@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 ## BLOCKLIST FETCHER
+"""
+TO DO
+- Config file, if not existing, back up old from calls, etc...
+"""
 import os
 import optparse
 import sys
 import urllib.request, json
 from pathlib import Path
 import re
+import subprocess
 
 unformattedBlocklists = []
 blocklists = []
@@ -196,6 +201,7 @@ class Fetcher(object):
 
         # Update Gravity
         print("STATUS\t Telling Pi-hole to uptade gravity and load new regexp's")
+        subprocess.run(["pihole", "-g"], stdout=subprocess.PIPE)
 
     def __init__(self, repoURL):
         self.repoURL = repoURL
