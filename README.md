@@ -92,6 +92,8 @@ Category/List Name
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Social/houseparty.txt)
 - [Instagram](Social/instagram.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Social/instagram.txt)
+- [LinkedIn](Social/linkedin.txt)
+  - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Social/linkedin.txt)
 - [Reddit](Social/reddit.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Social/reddit.txt)
 - [Skype](Social/skype.txt)
