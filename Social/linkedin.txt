@@ -1,0 +1,5 @@
+*.linkedin.com
+linkedin.com
+www.linkedin.com
+static-exp2.licdn.com
+platform.linkedin.com
