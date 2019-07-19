@@ -1,0 +1,2 @@
+*.movetv.com
+*.sling.com
