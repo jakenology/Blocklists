@@ -1,0 +1,16 @@
+*.hulu.com
+hulu.com
+www.hulu.com
+discover.hulu.com
+assetshuluimcom-a.akamaihd.net
+vortex.hulu.com
+c.evidon.com
+auth.hulu.com
+player.hulu.com
+img4.hulu.com
+img2.hulu.com
+emu.hulu.com
+play.hulu.com
+img1.hulu.com
+img.hulu.com
+img3.hulu.com
