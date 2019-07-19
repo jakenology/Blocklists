@@ -21,6 +21,7 @@
         "lightspeed"
     ],
     "Scanners": ["scanners"],
+    "Search Engines": ["non-safesearch"],
     "Social": [
         "discord",
         "facebook",
