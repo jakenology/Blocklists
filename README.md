@@ -106,5 +106,7 @@ Category/List Name
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Social/whatsapp.txt)
   
 # TV
+- [Hulu](TV/hulu.txt)
+  - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/TV/hulu.txt)
 - [Sling](TV/sling.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/TV/sling.txt)
