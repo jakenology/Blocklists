@@ -34,5 +34,8 @@
         "twitter",
         "whatsapp"
     ],
- "TV": ["sling"]
+ "TV": [
+     "hulu",
+     "sling"
+ ]
 }
