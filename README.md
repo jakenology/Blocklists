@@ -81,6 +81,11 @@ Category/List Name
 - [Scanners](https://github.com/jaykepeters/Blocklists/blob/master/Scanners/scanners.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Scanners/scanners.txt)
 
+# Search Engines
+- Contains a list of commonly heard of search engines, as well as search engines that to not support enforcing a DNS SafeSearch option.
+- [Non-SafeSearch](Search Engines/non-safesearch.txt)
+  - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Search Engines/non-safesearch.txt)
+  
 # Social Media
 - [Discord](Social/discord.txt)
   - [Raw](https://raw.githubusercontent.com/jaykepeters/Blocklists/master/Social/discord.txt)
