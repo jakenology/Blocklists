@@ -1,0 +1,50 @@
+# Yahoo, images and video
+images.search.yahoo.com
+video.search.yahoo.com
+
+# Qwant
+*.qwant.com
+qwant.com
+www.qwant.com
+api.qwant.com
+s2.qwant.com
+s1.qwant.com
+
+# Search Encrypt
+*.searchencrypt.com
+searchencrypt.com
+www.searchencrypt.com
+
+# Startpage
+*.startpage.com
+startpage.com
+www.startpage.com
+s2-us4.startpage.com
+s16-us2.startpage.com
+
+# SearX
+searx.me
+
+# Gibiru
+gibiru.com
+
+# Ecosia
+*.ecosia.org
+ecosia.org
+www.ecosia.org
+cdn.ecosia.org
+analytics.ecosia.org
+ps.ecosia.org
+api.ecosia.org
+ac.ecosia.org
+
+# BoardReader
+boardreader.com
+
+# Archive.org
+*.archive.org
+archive.org
+analytics.archive.org
+web.archive.org
+
+## MORE TO BE ADDED!!! PLEASE HELP CONTRIBUTE
