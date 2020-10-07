@@ -53,3 +53,13 @@ p2.pstatp.com
 p3.pstatp.com
 p99.pstatp.com
 a325.mm1.akamai.net
+sf16-muse-va.ibytedtos.com
+sf-tk-sg.ibytedtos.com
+sf-tb-sg.ibytedtos.com
+sf-hs-sg.ibytedtos.com
+sf16-passport-va.ibytedtos.com
+sf16-scmcdn-va.ibytedtos.com
+sf16-passport-sg.ibytedtos.com
+lf16-adcdn-va.ibytedtos.com
+sf19-scmcdn-va.ibytedtos.com
+lf16-geckocdn-sg.ibytedtos.com
