@@ -221,13 +221,13 @@ def main():
     sudoCheck()
 
     # Instanciate the class
-    fetcher = Fetcher("https://github.com/jaykepeters/Blocklists")
+    fetcher = Fetcher("https://github.com/jakenology/Blocklists")
 
     ## COMMAND LINE STUFF
     parser = optparse.OptionParser()
     parser.set_usage(
         """usage: %prog [--file file | -f file ] [--list "Category/listname | -l "Category/listname"]
-        Copyright 2019 Jayke Peters""")
+        Copyright 2019 JakeNology""")
 
     ## OPTIONS
     parser.add_option('--list', '-l',
